@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": ["esnext"],
+        "sourceMap": true,
+        "declaration": true,
+        // "target": "ES2020",
+        // "module": "ESNext",
+        // "moduleResolution": "node",
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "strict": false,
+        // para que typescript aplique el soporte a los decoradores de sequelize
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    }, 
+
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
